@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "open sans",sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "barlow", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* ol {
+    list-style: none;
+} */
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 34, 0.788);
+
+}
+
+
+/* menu */
+.menu {
+    padding: 30px 0;
+    position: absolute;
+    width: 100px;
+
+}
+
+.menu .container{
+    display: flex;
+    align-items: center;
+}
+
+.menu .list {
+    margin-left: auto;
+}
+
+.menu .list ul{
+    display: flex;
+}
+
+.menu .list ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-left: 30px;
+    color: #0000; 
+   
+
+}
+
+.menu .download-btn {
+    margin-left: 45px;
+}
+
+.menu .download-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: red;
+    color: #fff;
+    padding: 12px 17px;
+    border-radius: 5px;
+    display: inline-block;
+
+} 
+
+ 
+
+
+
